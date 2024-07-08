@@ -14,7 +14,7 @@
       <div class="p-4">
         <div class="glass pl-4 pr-4 pt-4 md:pl-36 md:pr-36 text-white text-center">
           <div id="greeting" class="border-6 text-4xl">Good Day</div>
-          <div id="clock" class="text-center flex items-center ml-[120px] md:ml-36 md:pl-4">
+          <div id="clock" class="text-center flex items-center ml-[120px] md:ml-36 md:pl-16">
             <div id="hour" class="text-7xl md:text-8xl">00</div>
             <div id="minute" class="text-4xl md:text-5xl">00</div>
             <div id="timeSuffix" class="text-lg md:text-xl">##</div>
@@ -22,7 +22,7 @@
         </div>
         
         <div class="pl-4 pr-4 pt-4 md:pl-36 md:pr-36">
-          <div class="flex gap-2 mt-2 mb-2 md:ml-20 md:pl-4">
+          <div class="flex gap-2 mt-2 mb-2 md:ml-20 md:pl-16">
             <div class="flex items-center gap-3 pl-4 pr-4 bg-white bg-opacity-10 rounded-tl-md rounded-bl-lg">
               <img src="https://assets.codepen.io/1468070/Google+G+Icon.png" alt="" class="h-6" />
               <input type="text" placeholder="Search anything" id="search" class="w-full h-14 bg-transparent p-4 pr-8" />
