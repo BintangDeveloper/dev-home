@@ -51,7 +51,7 @@ function loadGlassOverlayComponents() {
     // set the greeting message according the time of the day
     if (hour < 5) {
         document.querySelector('#greeting').innerHTML = 'Late Night?';
-    } else if (hour < 12) {
+    } else if (hour < 11) {
         document.querySelector('#greeting').innerHTML = 'Good Morning';
     } else if (hour < 15) {
         document.querySelector('#greeting').innerHTML = 'Good Afternoon';
@@ -116,7 +116,7 @@ function convertHour(hourValue) {
 }
 
 addEventListener("load", (event) => {
-  setBackgroundGradient();
+  console.log(setBackgroundGradient);
   loadGlassOverlayComponents();
 });
 

@@ -6,37 +6,37 @@ Route::get('/', function () {
     $apps = array(
       [
         "name" => "Stack Overflow",
-        "text" => "text-gray",
+        "color" => "#808080",
         "icon" => "fa-brands fa-stack-overflow",
         "url" => "stackoverflow.com"
       ],
       [
         "name" => "Github",
-        "text" => "text-white",
+        "color" => "#ffffff",
         "icon" => "fa-brands fa-github",
         "url" => "github.com"
       ],
       [
         "name" => "Chat GPT",
-        "text" => "text-green",
-        "icon" => "fa-solid fa-ellipsis",
+        "color" => "#008000",
+        "icon" => "fa-solid fa-comments",
         "url" => "chat.openai.com"
       ],
       [
         "name" => "CodePen",
-        "text" => "text-white",
+        "color" => "#ffffff",
         "icon" => "fa-brands fa-codepen",
         "url" => "codepen.io"
       ],
       [
         "name" => "Discord",
-        "text" => "text-blue",
+        "color" => "#0000FF",
         "icon" => "fa-brands fa-discord",
         "url" => "discord.com"
       ],
       [
         "name" => "More",
-        "text" => "text-white",
+        "color" => "text-white",
         "icon" => "fa-solid fa-ellipsis",
         "url" => ""
       ],
