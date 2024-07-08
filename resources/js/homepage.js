@@ -26,7 +26,7 @@ function setBackgroundGradient() {
     if (hour < 5) {
         // early morning gradient
         document.querySelector('body').style.background="linear-gradient(-45deg, #767d92, #2f4562, #152642, #081b33)";
-    } else if (hour < 12) {
+    } else if (hour < 11) {
         // morning gradient
         document.querySelector('body').style.background="linear-gradient(-45deg, #fa4e5e, #f9ab9e, #99b9d0, #00b2d2)";
     } else if (hour < 15) {
